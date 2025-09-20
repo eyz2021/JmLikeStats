@@ -10,7 +10,6 @@ client:
     type: curl_cffi
   retry_times: 1
 dir_rule:
-  base_dir: D:\python\JmLikeStats
   rule: Bd_Pname
 download:
   cache: true
@@ -24,3 +23,4 @@ log: true
 plugins:
   valid: log
 version: '2.1'
+
