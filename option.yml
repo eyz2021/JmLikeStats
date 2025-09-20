@@ -1,0 +1,26 @@
+client:
+  cache: null
+  domain: []
+  impl: api
+  postman:
+    meta_data:
+      headers: null
+      impersonate: chrome
+      proxies: {}
+    type: curl_cffi
+  retry_times: 1
+dir_rule:
+  base_dir: D:\python\JmLikeStats
+  rule: Bd_Pname
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: null
+  threading:
+    image: 30
+    photo: 32
+log: true
+plugins:
+  valid: log
+version: '2.1'
